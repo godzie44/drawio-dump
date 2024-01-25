@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T13:18:51.015Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="LOfwiyVbwhqohMYNFfc0" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T13:21:00.051Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="QS29Z6IQG85KuMkQGgaA" version="23.0.1" type="github">
   <diagram id="uMv5k3oVzNV7NbuxyRFv" name="Page-1">
     <mxGraphModel dx="1195" dy="601" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,7 +368,7 @@
             <mxPoint x="180" y="2070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lfOL7bnSdx20tr7RyeLw-28" value="SSL_accept (send response)" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="lfOL7bnSdx20tr7RyeLw-28" value="SSL_write (send response)" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="182" y="2095" as="sourcePoint" />
             <mxPoint x="558" y="2145" as="targetPoint" />
