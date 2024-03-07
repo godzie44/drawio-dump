@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T14:50:25.484Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="2jWE4WzoP3beMnV44_BJ" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T14:54:05.016Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="26HOs750HaiFCgF4lCKT" version="23.1.6" type="github">
   <diagram id="uMv5k3oVzNV7NbuxyRFv" name="Page-1">
     <mxGraphModel dx="2514" dy="848" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -417,29 +417,29 @@
         <mxCell id="65U6Zx_z3wgA-yNRpdru-10" value="instance stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="30" y="2920" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="65U6Zx_z3wgA-yNRpdru-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;PLUGIN&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;SERVICE&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="310" y="2360" width="420" height="660" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-13" value="on_start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="2400" width="120" height="80" as="geometry" />
+          <mxGeometry x="360" y="2390" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-14" value="on_stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="2920" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="2920" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-15" value="schema" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="2490" width="120" height="80" as="geometry" />
+          <mxGeometry x="570" y="2490" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-16" value="on_config_validate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="2580" width="120" height="80" as="geometry" />
+          <mxGeometry x="330" y="2500" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-17" value="on_config_change" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="2680" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="2610" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-18" value="on_health_check" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="2830" width="120" height="80" as="geometry" />
+          <mxGeometry x="340" y="2800" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-19" value="on_leader_change" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="2740" width="120" height="80" as="geometry" />
+          <mxGeometry x="320" y="2710" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="65U6Zx_z3wgA-yNRpdru-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -453,7 +453,7 @@
             <mxPoint x="620" y="2640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="65U6Zx_z3wgA-yNRpdru-22" value="Trigger: config field in _pico_service updated&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-22" value="Trigger: поле config в спейсе _pico_service обновленно" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry y="2450" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.958;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="65U6Zx_z3wgA-yNRpdru-22" target="65U6Zx_z3wgA-yNRpdru-16">
@@ -468,16 +468,16 @@
             <mxPoint x="530" y="2600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="65U6Zx_z3wgA-yNRpdru-28" value="Governor(?): new RS leader elected" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-28" value="Governor(?): выбран новый лидер репликасета" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="2600" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="65U6Zx_z3wgA-yNRpdru-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.961;exitY=0.657;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="65U6Zx_z3wgA-yNRpdru-28" target="65U6Zx_z3wgA-yNRpdru-19">
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-29" value="&lt;b&gt;прим. только на RS где сменился лидер&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.961;exitY=0.657;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="65U6Zx_z3wgA-yNRpdru-28" target="65U6Zx_z3wgA-yNRpdru-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="2680" as="sourcePoint" />
             <mxPoint x="530" y="2630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="65U6Zx_z3wgA-yNRpdru-30" value="Governor(?): heath check comming" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-30" value="Governor(?): пришел health check" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="2750" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="65U6Zx_z3wgA-yNRpdru-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.972;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.05;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="65U6Zx_z3wgA-yNRpdru-30" target="65U6Zx_z3wgA-yNRpdru-18">
@@ -486,8 +486,20 @@
             <mxPoint x="530" y="2630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="65U6Zx_z3wgA-yNRpdru-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;CASE: instance start and plugin already loaded&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="2310" width="200" height="20" as="geometry" />
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;CASE: стартуем инстанс, при этом плагин уже загружен&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2310" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.492;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.492;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="65U6Zx_z3wgA-yNRpdru-12" target="65U6Zx_z3wgA-yNRpdru-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="2670" as="sourcePoint" />
+            <mxPoint x="490" y="2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-34" value="&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;ONCE&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="65U6Zx_z3wgA-yNRpdru-36" value="&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;ON ANY INSTANCE&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2360" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
