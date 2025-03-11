@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Страница — 1" id="RW-pO1266FzQhhYjobIq">
-    <mxGraphModel>
+    <mxGraphModel dx="1368" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-2" target="mf_PLKOSiDefCwh0_vWu-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="110" />
+              <mxPoint x="245" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-2" target="mf_PLKOSiDefCwh0_vWu-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="110" />
+              <mxPoint x="675" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-2" value="idx: 0 | 4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="299" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-3" target="mf_PLKOSiDefCwh0_vWu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245" y="180" />
+              <mxPoint x="361" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-3" value="idx: 0 | 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-4" target="mf_PLKOSiDefCwh0_vWu-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="675" y="170" />
+              <mxPoint x="815" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-4" value="idx: 4 | 8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-5" value="leaf: 0 name0 | 1 name1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-6" value="leaf: 2 name2 | 3 name3" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-7" value="leaf: 4 name4 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-8" value="leaf: 8 name8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="730" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.435;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-4" target="mf_PLKOSiDefCwh0_vWu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-3" target="mf_PLKOSiDefCwh0_vWu-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245" y="170" />
+              <mxPoint x="138" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
