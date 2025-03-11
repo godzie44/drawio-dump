@@ -275,8 +275,11 @@
         <mxCell id="mf_PLKOSiDefCwh0_vWu-66" value="v2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCFF99;" vertex="1" parent="1">
           <mxGeometry x="940" y="1050" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-67" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problems:&lt;/h1&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+1 block&lt;/span&gt;&lt;/div&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dealoc old block&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1100" width="205" height="120" as="geometry" />
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-67" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problems:&lt;/h1&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+1 block&lt;/span&gt;&lt;/div&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split - возможен&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;retry чтения индексного блока&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1070" width="205" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-69" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Появление новой версии:&lt;/h1&gt;&lt;p&gt;1) создаем v2 leafs&lt;/p&gt;&lt;p&gt;2) обновляем индексный блок&lt;/p&gt;&lt;p&gt;3) помечаем v1 leaf блок как устаревший (если клиент прочитал устаревший блок то он должен перечитать родителя (индексный блок))&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1200" width="480" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
