@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Страница — 1" id="RW-pO1266FzQhhYjobIq">
-    <mxGraphModel dx="1368" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-2" target="mf_PLKOSiDefCwh0_vWu-3">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-2" target="mf_PLKOSiDefCwh0_vWu-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="110" />
@@ -12,7 +12,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-2" target="mf_PLKOSiDefCwh0_vWu-4">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-2" target="mf_PLKOSiDefCwh0_vWu-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="110" />
@@ -20,10 +20,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-2" value="idx: 0 | 4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-2" value="idx: 0 | 4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="300" y="70" width="299" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-3" target="mf_PLKOSiDefCwh0_vWu-6">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-3" target="mf_PLKOSiDefCwh0_vWu-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="170" as="sourcePoint" />
             <mxPoint x="360" y="200" as="targetPoint" />
@@ -33,10 +33,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-3" value="idx: 0 | 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-3" value="idx: 0 | 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="160" y="130" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-4" target="mf_PLKOSiDefCwh0_vWu-8">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-4" target="mf_PLKOSiDefCwh0_vWu-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="675" y="170" />
@@ -44,25 +44,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-4" value="idx: 4 | 8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-4" value="idx: 4 | 8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="590" y="130" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-5" value="leaf: 0 name0 | 1 name1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-5" value="leaf: 0 name0 | 1 name1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-6" value="leaf: 2 name2 | 3 name3" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-6" value="leaf: 2 name2 | 3 name3" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="270" y="190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-7" value="leaf: 4 name4 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-7" value="leaf: 4 name4 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="500" y="190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-8" value="leaf: 8 name8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-8" value="leaf: 8 name8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="730" y="190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.435;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-4" target="mf_PLKOSiDefCwh0_vWu-7">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.435;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-4" target="mf_PLKOSiDefCwh0_vWu-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-3" target="mf_PLKOSiDefCwh0_vWu-5">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-3" target="mf_PLKOSiDefCwh0_vWu-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="245" y="170" />
@@ -70,10 +70,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-15" value="HTree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-15" value="HTree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="419.5" y="20" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-18" target="mf_PLKOSiDefCwh0_vWu-20">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-18" target="mf_PLKOSiDefCwh0_vWu-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="400" />
@@ -81,7 +81,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-18" target="mf_PLKOSiDefCwh0_vWu-22">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-18" target="mf_PLKOSiDefCwh0_vWu-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="400" />
@@ -89,10 +89,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-18" value="idx: 0 | 4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-18" value="idx: 0 | 4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="310" y="360" width="299" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-20" target="mf_PLKOSiDefCwh0_vWu-24">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-20" target="mf_PLKOSiDefCwh0_vWu-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="460" as="sourcePoint" />
             <mxPoint x="370" y="490" as="targetPoint" />
@@ -102,10 +102,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-20" value="idx: 0 | 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-20" value="idx: 0 | 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="170" y="420" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-22" target="mf_PLKOSiDefCwh0_vWu-26">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-22" target="mf_PLKOSiDefCwh0_vWu-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="685" y="460" />
@@ -113,25 +113,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-22" value="idx: 4 | 8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-22" value="idx: 4 | 8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="600" y="420" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-23" value="leaf: 0 name0 | 1 name1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-23" value="leaf: 0 name0 | 1 name1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="70" y="480" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-24" value="leaf: 2 name2 | 3 name3" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-24" value="leaf: 2 name2 | 3 name3" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="280" y="480" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-25" value="leaf: 4 name4" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-25" value="leaf: 4 name4" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="510" y="480" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-26" value="leaf: 8 name8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-26" value="leaf: 8 name8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="840" y="490" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.435;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-22" target="mf_PLKOSiDefCwh0_vWu-25">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.435;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-22" target="mf_PLKOSiDefCwh0_vWu-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-20" target="mf_PLKOSiDefCwh0_vWu-23">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-20" target="mf_PLKOSiDefCwh0_vWu-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="255" y="460" />
@@ -139,40 +139,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-29" value="HTree - generation number" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-29" value="HTree - generation number" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="414" y="310" width="120.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-30" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-30" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="549" y="360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-31" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-31" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="710" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-32" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-32" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="280" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-33" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-33" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="210" y="480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-35" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-35" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="429.5" y="480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-36" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF6666;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-36" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="650" y="480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-37" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-37" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="950" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Readdir&lt;/h1&gt;&lt;div&gt;gen idx != gen lef -&amp;gt; retry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Readdir&lt;/h1&gt;&lt;div&gt;gen idx != gen lef -&amp;gt; retry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="55" y="540" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-40" value="leaf: 6 name6 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-40" value="leaf: 6 name6 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="640" y="530" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-41" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF6666;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-41" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF6666;" parent="1" vertex="1">
           <mxGeometry x="780" y="530" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.718;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-22" target="mf_PLKOSiDefCwh0_vWu-40">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.718;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-22" target="mf_PLKOSiDefCwh0_vWu-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="685" y="460" />
@@ -182,10 +182,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-43" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problems:&lt;/h1&gt;&lt;div&gt;- split -&amp;gt; full update HTree&lt;/div&gt;&lt;p&gt;- retry -&amp;gt; delay | read amplification&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-43" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problems:&lt;/h1&gt;&lt;div&gt;- split -&amp;gt; full update HTree&lt;/div&gt;&lt;p&gt;- retry -&amp;gt; delay | read amplification&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="55" y="650" width="205" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-46" target="mf_PLKOSiDefCwh0_vWu-48">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-46" target="mf_PLKOSiDefCwh0_vWu-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="850" />
@@ -193,7 +193,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-46" target="mf_PLKOSiDefCwh0_vWu-50">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-46" target="mf_PLKOSiDefCwh0_vWu-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="850" />
@@ -201,10 +201,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-46" value="idx: 0 | 4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-46" value="idx: 0 | 4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="330" y="810" width="299" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-48" target="mf_PLKOSiDefCwh0_vWu-52">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-48" target="mf_PLKOSiDefCwh0_vWu-52" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="910" as="sourcePoint" />
             <mxPoint x="390" y="940" as="targetPoint" />
@@ -214,10 +214,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-48" value="idx: 0 | 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-48" value="idx: 0 | 2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="190" y="870" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-50" target="mf_PLKOSiDefCwh0_vWu-54">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-50" target="mf_PLKOSiDefCwh0_vWu-54" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="705" y="910" />
@@ -225,31 +225,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-50" target="mf_PLKOSiDefCwh0_vWu-59">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="mf_PLKOSiDefCwh0_vWu-50" target="mf_PLKOSiDefCwh0_vWu-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-50" target="mf_PLKOSiDefCwh0_vWu-58">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="mf_PLKOSiDefCwh0_vWu-50" target="mf_PLKOSiDefCwh0_vWu-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-50" value="idx: 4 | 8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-50" value="idx: 4 | 8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="620" y="870" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-51" value="leaf: 0 name0 | 1 name1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-51" value="leaf: 0 name0 | 1 name1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="90" y="930" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-52" value="leaf: 2 name2 | 3 name3" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-52" value="leaf: 2 name2 | 3 name3" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="300" y="930" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-53" value="leaf: 4 name4 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-53" value="leaf: 4 name4 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="449.5" y="1000" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-54" value="leaf: 8 name8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-54" value="leaf: 8 name8" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="760" y="930" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.435;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-50" target="mf_PLKOSiDefCwh0_vWu-53">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.435;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-50" target="mf_PLKOSiDefCwh0_vWu-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mf_PLKOSiDefCwh0_vWu-48" target="mf_PLKOSiDefCwh0_vWu-51">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-48" target="mf_PLKOSiDefCwh0_vWu-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="275" y="910" />
@@ -257,29 +257,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-57" value="HTree versioning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-57" value="HTree versioning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="449.5" y="760" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-58" value="leaf: 6 name6 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-58" value="leaf: 6 name6 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="800" y="1050" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-59" value="leaf: 4 name4" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-59" value="leaf: 4 name4" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="595" y="1050" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-63" value="v1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-63" value="v1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="590" y="1000" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-64" value="v2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCFF99;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-64" value="v2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCFF99;" parent="1" vertex="1">
           <mxGeometry x="720" y="1050" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-66" value="v2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCFF99;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-66" value="v2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCFF99;" parent="1" vertex="1">
           <mxGeometry x="940" y="1050" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-67" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problems:&lt;/h1&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+1 block&lt;/span&gt;&lt;/div&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split - возможен&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;retry чтения индексного блока&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-67" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problems:&lt;/h1&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+1 block&lt;/span&gt;&lt;/div&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;split - возможен&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;retry чтения индексного блока&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="1070" width="205" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-69" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Появление новой версии:&lt;/h1&gt;&lt;p&gt;1) создаем v2 leafs&lt;/p&gt;&lt;p&gt;2) обновляем индексный блок&lt;/p&gt;&lt;p&gt;3) помечаем v1 leaf блок как устаревший (если клиент прочитал устаревший блок то он должен перечитать родителя (индексный блок))&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-69" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Появление новой версии:&lt;/h1&gt;&lt;p&gt;1) создаем v2 leafs&lt;/p&gt;&lt;p&gt;2) обновляем индексный блок&lt;/p&gt;&lt;p&gt;3) помечаем v1 leaf блок как устаревший (если клиент прочитал устаревший блок то он должен перечитать родителя (индексный блок))&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="1200" width="480" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zh9cQU-0o9XaFqUuo2Uj-1" value="R" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1950" as="sourcePoint" />
+            <mxPoint x="170" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zh9cQU-0o9XaFqUuo2Uj-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1950" as="sourcePoint" />
+            <mxPoint x="1040" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zh9cQU-0o9XaFqUuo2Uj-3" value="W" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zh9cQU-0o9XaFqUuo2Uj-2">
+          <mxGeometry x="0.754" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
