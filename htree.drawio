@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Страница — 1" id="RW-pO1266FzQhhYjobIq">
-    <mxGraphModel dx="1140" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,23 +279,75 @@
           <mxGeometry x="70" y="1070" width="205" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mf_PLKOSiDefCwh0_vWu-69" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Появление новой версии:&lt;/h1&gt;&lt;p&gt;1) создаем v2 leafs&lt;/p&gt;&lt;p&gt;2) обновляем индексный блок&lt;/p&gt;&lt;p&gt;3) помечаем v1 leaf блок как устаревший (если клиент прочитал устаревший блок то он должен перечитать родителя (индексный блок))&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1200" width="480" height="300" as="geometry" />
+          <mxGeometry x="70" y="1200" width="480" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="zh9cQU-0o9XaFqUuo2Uj-1" value="R" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="04HmaOA_3xTZ1o9605H1-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="1950" as="sourcePoint" />
-            <mxPoint x="170" y="1530" as="targetPoint" />
+            <mxPoint x="300" y="1970" as="sourcePoint" />
+            <mxPoint x="300" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zh9cQU-0o9XaFqUuo2Uj-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="04HmaOA_3xTZ1o9605H1-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="1950" as="sourcePoint" />
-            <mxPoint x="1040" y="1950" as="targetPoint" />
+            <mxPoint x="640" y="1980" as="sourcePoint" />
+            <mxPoint x="640" y="1460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zh9cQU-0o9XaFqUuo2Uj-3" value="W" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zh9cQU-0o9XaFqUuo2Uj-2">
-          <mxGeometry x="0.754" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="04HmaOA_3xTZ1o9605H1-4" value="Ex 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-5" value="Ex 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="1500" as="sourcePoint" />
+            <mxPoint x="630" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-7" value="Ref cnt {+1}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396.75" y="1490" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-8" value="Создали запись в HTree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-9" value="Ex1: Rc (+1) on disc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1550" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="1580" as="sourcePoint" />
+            <mxPoint x="320" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-11" value="Save OK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="429.5" y="1570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1640" as="sourcePoint" />
+            <mxPoint x="610" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-14" value="-1 to INO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-15" value="commit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-16" value="1) RC + 1&lt;div&gt;2) Remove Rc (+1)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1700" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-19" value="" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1600" as="sourcePoint" />
+            <mxPoint x="249" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04HmaOA_3xTZ1o9605H1-20" value="" style="endArrow=none;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="741" y="1744.5" as="sourcePoint" />
+            <mxPoint x="250" y="1744.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
