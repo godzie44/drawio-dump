@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Страница — 1" id="RW-pO1266FzQhhYjobIq">
-    <mxGraphModel dx="1303" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,25 +142,22 @@
         <mxCell id="mf_PLKOSiDefCwh0_vWu-29" value="HTree - generation number" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="414" y="310" width="120.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-30" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-30" value="{ 3; 4 }" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="549" y="360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-31" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-31" value="{ 3; 4 }" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="710" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-32" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-32" value="{ 3; 3}" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="280" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-33" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-33" value="{ 3; 0 }" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="210" y="480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-35" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-35" value="{ 3; 0 }" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="429.5" y="480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-36" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="650" y="480" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-37" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
+        <mxCell id="mf_PLKOSiDefCwh0_vWu-37" value="{ 3; 0 }" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" parent="1" vertex="1">
           <mxGeometry x="950" y="490" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mf_PLKOSiDefCwh0_vWu-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Readdir&lt;/h1&gt;&lt;div&gt;gen idx != gen lef -&amp;gt; retry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -168,9 +165,6 @@
         </mxCell>
         <mxCell id="mf_PLKOSiDefCwh0_vWu-40" value="leaf: 6 name6 | 7 name7" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="640" y="530" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mf_PLKOSiDefCwh0_vWu-41" value="gen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF6666;" parent="1" vertex="1">
-          <mxGeometry x="780" y="530" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mf_PLKOSiDefCwh0_vWu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.718;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mf_PLKOSiDefCwh0_vWu-22" target="mf_PLKOSiDefCwh0_vWu-40" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -350,62 +344,68 @@
             <mxPoint x="250" y="1744.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-1" value="A1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;fontSize=18;fontColor=light-dark(#e90101, #ededed);" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-1" value="A1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;fontSize=18;fontColor=light-dark(#e90101, #ededed);" parent="1" vertex="1">
           <mxGeometry x="730" y="1590" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-2" value="A3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;fontSize=18;fontColor=light-dark(#e90101, #ededed);" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-2" value="A3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;fontSize=18;fontColor=light-dark(#e90101, #ededed);" parent="1" vertex="1">
           <mxGeometry x="760" y="1730" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;A1: Произошла авария в результате которой Ex1 не принял SAVE OK.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Резолвим аварию при добавления хардлинка с тем же именем:&lt;br&gt;1) Ex1 видит что файл существует но его INO = -1.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2) Ex1 делает запрос на Ex2 в котором проверяет наличие intention&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3) Если intention есть то Ex2 может его удалить и процесс создания HL повторяется&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;4) Если intention нет то можно сразу повторять процесс создания HL&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;3*) Ex1 достаточно отправить идемпотентный запрос на удаление intention&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;A1: Произошла авария в результате которой Ex1 не принял SAVE OK.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Резолвим аварию при добавления хардлинка с тем же именем:&lt;br&gt;1) Ex1 видит что файл существует но его INO = -1.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2) Ex1 делает запрос на Ex2 в котором проверяет наличие intention&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3) Если intention есть то Ex2 может его удалить и процесс создания HL повторяется&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;4) Если intention нет то можно сразу повторять процесс создания HL&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;3*) Ex1 достаточно отправить идемпотентный запрос на удаление intention&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1020" y="1630" width="590" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;A3: Допустим мы заводим для файла на который делается HL блок в котором есть счетчик RC и список intention. В inode файла сохраняется ссылка на этот блок. Расмотрим аварию при которой блок создан но ссылка в inode не добавлена.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Проблемы:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1) созданый блок будет потерян&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2) при ребуте mds могут оставаться невыполненые intention для inode. Т.к. такие intention необходимо либо разбудить либо удалить. А значит необходим fullscan при перезагрузке либо repair процесс который тригерится по доступу к inode (через Ex2).&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;A3: Допустим мы заводим для файла на который делается HL блок в котором есть счетчик RC и список intention. В inode файла сохраняется ссылка на этот блок. Расмотрим аварию при которой блок создан но ссылка в inode не добавлена.&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Проблемы:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1) созданый блок будет потерян&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2) при ребуте mds могут оставаться невыполненые intention для inode. Т.к. такие intention необходимо либо разбудить либо удалить. А значит необходим fullscan при перезагрузке либо repair процесс который тригерится по доступу к inode (через Ex2).&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="2160" width="590" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="1820" as="sourcePoint" />
             <mxPoint x="340" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-8" value="TX cord" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-8" value="TX cord" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="1420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-9" value="A1: В Ex1 приходит запрос на добавление HL &quot;name1&quot; в htree для этого имени есть запись name1: -1.&lt;div&gt;1) отправляем {&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ref cnt {+1}&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;} на Ex2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2) отдаем клиенту EAGAIN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3) Ex2 доходит до запроса&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Ref cnt {+1}&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3) Ex2 проверяет наличие intetion&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;в inode&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4) Если нет, то создаем, далее по алгоритму&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5) Если есть далее по алгоритму (без создания)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;A2: В Ex2 приходит запрос на удаление объекта, у которого есть не выполненый entention (потеря комита Ex1 -&amp;gt; Ex2):&lt;/div&gt;&lt;div&gt;1) Ex2 отправляет save OK&lt;/div&gt;&lt;div&gt;2) Ex1 проверяет HL на INO = -1&lt;/div&gt;&lt;div&gt;3) Если INO = -1, то -1 replace to INO, далее по алгоритму&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(commit)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;4) Eсли INO != -1, то далее по алгоритму (commit)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-9" value="A1: В Ex1 приходит запрос на добавление HL &quot;name1&quot; в htree для этого имени есть запись name1: -1.&lt;div&gt;1) отправляем {&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ref cnt {+1}&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;} на Ex2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2) отдаем клиенту EAGAIN&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3) Ex2 доходит до запроса&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;Ref cnt {+1}&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3) Ex2 проверяет наличие intetion&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;в inode&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4) Если нет, то создаем, далее по алгоритму&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5) Если есть далее по алгоритму (без создания)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;A2: В Ex2 приходит запрос на удаление объекта, у которого есть не выполненый entention (потеря комита Ex1 -&amp;gt; Ex2):&lt;/div&gt;&lt;div&gt;1) Ex2 отправляет save OK&lt;/div&gt;&lt;div&gt;2) Ex1 проверяет HL на INO = -1&lt;/div&gt;&lt;div&gt;3) Если INO = -1, то -1 replace to INO, далее по алгоритму&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(commit)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;4) Eсли INO != -1, то далее по алгоритму (commit)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="190" y="1820" width="410" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-10" value="ADD -1 TO HL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-10" value="ADD -1 TO HL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="225" y="1520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-11" value="Maybe Ex1 intetion leak before next OP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0A0A;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-11" value="Maybe Ex1 intetion leak before next OP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0A0A;" parent="1" vertex="1">
           <mxGeometry x="570" y="1860" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="1600" as="sourcePoint" />
             <mxPoint x="290" y="1560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-13" value="Yeild" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-13" value="Yeild" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1590" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-17" value="Журнал" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-17" value="Журнал" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="2338" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="2338" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-19" value="LSN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-19" value="LSN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="215" y="2400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Inode:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rc: 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;rc_lsn: 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-20" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Inode:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rc: 0&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;rc_lsn: 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="2338" width="320" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-21" value="Intention list" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-21" value="Intention list" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="275" y="2400" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeQctFbGjYON3i-OoHZe-23" value="Авария: блок inеntion записан, inode не изменена&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Запись intention:&lt;/div&gt;&lt;div&gt;intention в журнал, lsn = 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Процесс востановления после аварии (Ex2 reboot):&lt;/div&gt;&lt;div&gt;Просматриваем журнал&lt;/div&gt;&lt;div&gt;Видим intention с lsn == 1&lt;/div&gt;&lt;div&gt;идем в inode rc_lsn == 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BeQctFbGjYON3i-OoHZe-23" value="Авария: блок inеntion записан, inode не изменена&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Запись intention:&lt;/div&gt;&lt;div&gt;intention в журнал, lsn = 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Процесс востановления после аварии (Ex2 reboot):&lt;/div&gt;&lt;div&gt;Просматриваем журнал&lt;/div&gt;&lt;div&gt;Видим intention с lsn == 1&lt;/div&gt;&lt;div&gt;идем в inode rc_lsn == 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="225" y="2440" width="285" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="io7rObgqiktNB00ZLA3A-1" value="{ 4; 0 }" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="785" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="io7rObgqiktNB00ZLA3A-2" value="{ 4; 0 }" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="629" y="480" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
