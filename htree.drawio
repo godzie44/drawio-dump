@@ -1187,6 +1187,9 @@
         <mxCell id="09wnxTBPhZnGETRd1K_T-161" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Алгоритм сплита индексов:&lt;/h1&gt;&lt;div&gt;1) Сплитим индекс на две части L и R&lt;/div&gt;&lt;div&gt;2) Сохраняем индес R на диск, помещаем запрос на сохранения индекса L на стек&lt;/div&gt;&lt;div&gt;3) Проверяем можно ли обновить выше лежащий индекс, если нет то переходим к пункту 1&lt;/div&gt;&lt;div&gt;4) Поочередно достаем из стека все запросы на сохранение и сохраняем&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-233" y="8648" width="553" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="09wnxTBPhZnGETRd1K_T-185" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Алгоритм сплита индексов (с новым индексным уровнем):&lt;/h1&gt;&lt;div&gt;1) Сплитим индекс на две части L и R&lt;/div&gt;&lt;div&gt;2) Сохраняем индес R на диск, помещаем запрос на сохранения индекса L на стек&lt;/div&gt;&lt;div&gt;3) Проверяем можно ли обновить выше лежащий индекс если нет то переходим к пункту 1&lt;/div&gt;&lt;div&gt;4) Если это мы в корне то так же делим узлы на L и R, помещаем L в стек, создаем новый корень, сохраняем R и новый корень, переключаем ссылку в htree&lt;/div&gt;&lt;div&gt;5) Поочередно достаем из стека все запросы на сохранение и сохраняем&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-244.5" y="8840" width="1134.5" height="440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
