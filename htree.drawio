@@ -1155,7 +1155,7 @@
         <mxCell id="09wnxTBPhZnGETRd1K_T-151" value="Idx 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="358.31" y="8470" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="09wnxTBPhZnGETRd1K_T-152" value="{ino-6, &quot;F6&quot;}, {ino-7, &quot;F7&quot;}" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="09wnxTBPhZnGETRd1K_T-152" value="{ino-6, &quot;F6&quot;}" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="789.31" y="8470" width="233.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="09wnxTBPhZnGETRd1K_T-153" value="Idx 7" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
