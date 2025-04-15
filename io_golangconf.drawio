@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Страница — 1" id="5MnBxVW6T4bRZf9gdQo-">
-    <mxGraphModel dx="1135" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="939" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,7 +310,7 @@
         <mxCell id="U0DOwcSD0p0kCqrb6wji-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-1" target="U0DOwcSD0p0kCqrb6wji-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-1" value="Создать серверный сокет&lt;div&gt;Создать epoll&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-1" value="Create server socket&lt;div&gt;and epoll instance&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-2" target="U0DOwcSD0p0kCqrb6wji-1">
@@ -319,7 +319,7 @@
         <mxCell id="U0DOwcSD0p0kCqrb6wji-2" value="Echo-server" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
           <mxGeometry x="290" y="1380" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-3" value="Зарегестрировать серверный сокет в epoll" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-3" value="server socket -&amp;gt; epoll" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-4" target="U0DOwcSD0p0kCqrb6wji-6">
@@ -334,20 +334,20 @@
         <mxCell id="U0DOwcSD0p0kCqrb6wji-4" value="event in epoll" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
           <mxGeometry x="280" y="1590" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-9" value="На клиентском сокете&amp;nbsp;&lt;div&gt;появились данные&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-6" target="U0DOwcSD0p0kCqrb6wji-8">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-9" value="Client socket&amp;nbsp;&lt;div&gt;ready to read&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-6" target="U0DOwcSD0p0kCqrb6wji-8">
           <mxGeometry x="0.1" y="-20" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-10" value="Пришел новый коннект" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-6" target="U0DOwcSD0p0kCqrb6wji-7">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-10" value="New connect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-6" target="U0DOwcSD0p0kCqrb6wji-7">
           <mxGeometry x="0.5294" y="-20" relative="1" as="geometry">
             <mxPoint x="20" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-6" value="тип события" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="1660" width="80" height="80" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-6" value="event type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1660" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-7" value="Добавить клиентский сокет в epoll" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-7" value="client socket -&amp;gt; epoll" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-8">
@@ -355,7 +355,7 @@
             <mxPoint x="215" y="1800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-8" value="1. Прочитать из клиентского сокета&lt;div&gt;2. Записать обратно в сокет&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-8" value="&lt;div&gt;client socket -&amp;gt; buffer&lt;/div&gt;&lt;div&gt;buffer -&amp;gt; client socket&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="155" y="1720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-7" target="U0DOwcSD0p0kCqrb6wji-4">
@@ -374,39 +374,35 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-31" value="Echo-server" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
-          <mxGeometry x="125" y="1870" width="90" height="30" as="geometry" />
+          <mxGeometry x="70" y="1860" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-32" target="U0DOwcSD0p0kCqrb6wji-33">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-32" target="U0DOwcSD0p0kCqrb6wji-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-32" value="Создать серверный сокет&lt;div&gt;Создать io_uring&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1920" width="120" height="60" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-32" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Create server socket and io_uring instance&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1910" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-33" target="U0DOwcSD0p0kCqrb6wji-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-33" value="Добавить в io_uring&lt;div&gt;OP_ACCEPT SQE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="111" y="2000" width="120" height="60" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-33" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;SQE = {OP_ACCEPT, server socket fd}&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SQE&lt;/span&gt;&amp;nbsp;-&amp;gt; io_uring&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2069.97" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-34" target="U0DOwcSD0p0kCqrb6wji-53">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170.83333333333348" y="2170" as="targetPoint" />
+            <mxPoint x="170" y="2249.97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-34" value="Сделать submit в io_uring" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="111" y="2090" width="120" height="60" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-34" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;io_uring.Submit()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2159.97" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-35" target="U0DOwcSD0p0kCqrb6wji-36">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477.73000000000025" y="1970" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-35" value="cqe in io_uring.WaitCQE" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
-          <mxGeometry x="399" y="1860" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-36" target="U0DOwcSD0p0kCqrb6wji-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-36" value="Достать fd и res из CQE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="1910" width="120" height="60" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;CQE in io_uring.WaitCQE()&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="399.23" y="1920" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-39" target="U0DOwcSD0p0kCqrb6wji-42">
           <mxGeometry relative="1" as="geometry" />
@@ -417,58 +413,71 @@
         <mxCell id="U0DOwcSD0p0kCqrb6wji-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-39" target="U0DOwcSD0p0kCqrb6wji-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-39" value="sockState[fd]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="1990" width="80" height="80" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-39" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;sockState[CQE.fd]&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397.73" y="1970" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="2320" as="targetPoint" />
+            <mxPoint x="477.73" y="2300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="730" y="2100" />
-              <mxPoint x="730" y="2320" />
+              <mxPoint x="727.73" y="2080" />
+              <mxPoint x="727.73" y="2300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-40" value="&lt;div&gt;Добавить в io_uring&lt;div&gt;OP_RECV SQE, fd = res&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="2070" width="175" height="60" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-40" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;SQE {OP_RECV, res} -&amp;gt; io_uring&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;sockState[res] = READ&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512.73" y="2050" width="197.27" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="2180.3333333333335" as="targetPoint" />
+            <mxPoint x="727.73" y="2160.3333333333335" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-41" value="&lt;div&gt;Добавить в io_uring&lt;div&gt;OP_WRITE SQE, fd = fd&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="2150" width="175" height="60" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-41" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;SQE {OP_SEND, CQE.fd } -&amp;gt; io_uring&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;sockState[CQE.fd] = WRITE&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512.73" y="2130" width="197.27" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U0DOwcSD0p0kCqrb6wji-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-42">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="2270.3333333333335" as="targetPoint" />
+            <mxPoint x="727.73" y="2250.3333333333335" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-42" value="&lt;div&gt;Добавить в io_uring&lt;div&gt;OP_READ SQE, fd = fd&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="2240" width="175" height="60" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-42" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;SQE {OP_RECV, CQE.fd} -&amp;gt; io_uring&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;sockState[CQE.fd] = READ&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512.73" y="2220" width="197.27" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.009;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-39" target="U0DOwcSD0p0kCqrb6wji-35">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.002;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-39" target="U0DOwcSD0p0kCqrb6wji-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="455" y="2320" />
-              <mxPoint x="370" y="2320" />
-              <mxPoint x="370" y="1870" />
+              <mxPoint x="478" y="2300" />
+              <mxPoint x="370" y="2300" />
+              <mxPoint x="370" y="1937" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-53">
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="2070" as="targetPoint" />
+            <mxPoint x="170" y="2139.97" as="targetPoint" />
+            <mxPoint x="170" y="2279.97" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="171" y="2230" />
-              <mxPoint x="50" y="2230" />
-              <mxPoint x="50" y="2070" />
+              <mxPoint x="171" y="2299.97" />
+              <mxPoint x="50" y="2299.97" />
+              <mxPoint x="50" y="2139.97" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0DOwcSD0p0kCqrb6wji-53" value="..." style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
-          <mxGeometry x="116" y="2180" width="110" height="30" as="geometry" />
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-58" target="U0DOwcSD0p0kCqrb6wji-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-58" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;sockState[server_socket_fd] = ACCEPT&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1990" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-61" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;CQE Loop&lt;/font&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="70" y="2250" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-62" value="CQE Loop" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="397.73" y="1870" width="164" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U0DOwcSD0p0kCqrb6wji-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="U0DOwcSD0p0kCqrb6wji-62" target="U0DOwcSD0p0kCqrb6wji-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
